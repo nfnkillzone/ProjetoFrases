@@ -55,4 +55,11 @@
     .logo{
         max-width: 80%;
     }
+    .textoFrase{
+        max-width: 80%;
+    }
+    .container{
+        width:100%;
+    min-height: 100vh;
+    }
 }
