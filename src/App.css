@@ -9,8 +9,9 @@
 }
 
 .logo{
-    max-width: 21.875rem;
+    max-width: 350px;
     border-radius: 5rem;
+    
 }
 
 .title{
@@ -48,4 +49,10 @@
     margin: 1.5rem 0 1rem 0;
     color: rgb(0, 255, 26);
     background-color:  #121212;  
+}
+
+@media(max-width: 768px){
+    .logo{
+        max-width: 80%;
+    }
 }
